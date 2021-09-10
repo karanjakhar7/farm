@@ -1,0 +1,222 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+hr {
+  border: dotted #f2f2f2 4px;
+  border-bottom: none;
+  width: 4%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.schedule{
+  font-weight: normal;
+}
+
+/* containers */
+
+.container-fluid{
+  padding: 3% 13% ;
+}
+
+/* sections */
+
+.colored-section{
+  background-image:url('closeup.jpg');
+  background-size: 100%;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+
+}
+/* Headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+  /* position: fixed; */
+}
+/* .title-box{
+  margin-top: 40px;
+} */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-items{
+  padding: 0 18px;
+}
+
+.nav-links{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.80);
+}
+
+/* Buttons */
+
+.map-button{
+  margin: 5% 3% 5% 0;
+  background-color:rgb(255, 117, 26, 0.70);
+}
+.map-button:hover{
+  background-color:rgb(255, 117, 26)
+}
+
+.visit-button{
+  margin: 5% 3% 5% 0;
+  background-color:rgba(213, 255, 26, 0.7);
+}
+.visit-button:hover{
+  background-color:rgb(213, 255, 26);
+  color: black;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+  background-color: rgba(0,0,0,0.70);
+  margin-bottom: 3%;
+}
+
+
+/* Title image */
+.title-image{
+  width: 60%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  right: 30%
+}
+
+
+/* Features section */
+
+#features{
+
+  position: relative;
+
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 3%;
+}
+
+.feature-image{
+  width: 20%;
+
+}
+
+/* Carousel */
+
+.mycarousel{
+  padding: 3% 10%;
+}
+
+
+/* about */
+
+  #about p{
+    color: #404040;
+  }
+  #cta p{
+    color: #404040;
+  }
+
+.about-us{
+  padding:3% 15%;
+  text-align: left;
+
+}
+.about-img{
+  width: 17%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+/* cta and footer */
+
+
+.link-icons{
+
+margin: 0.5%;
+}
+
+#footer .container-fluid{
+  padding-bottom: 0;
+}
+
+#footer .copyright{
+  padding-top: 5%;
+  color: #404040;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 992px) {
+
+  #title{
+    text-align: center;
+  }
+
+}
+@media (max-width: 415px) {
+
+  .row{
+    word-wrap: break-word;
+  }
+}
+
+.contact-col{
+  padding-bottom: 25px;
+}
+
+.text-center{
+  padding:2% 10%;
+  background-color: rgb(0,0,0,0.2);
+}
+
+#footer p{
+  color: black;
+}
+
+
+/* For booking a visit */
+.book-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(7, 196, 38);
+  text-decoration: none;
+}
