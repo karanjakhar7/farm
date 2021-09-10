@@ -15,6 +15,6 @@ app.use(express.static(path.join(__dirname,'static')))
 app.use('/', farmRoute)
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`App listening at http://localhost:${port}`)
 })
