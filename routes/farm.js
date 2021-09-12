@@ -16,9 +16,22 @@ router.get('/book', (req, res) => {
     
   })
 
-router.post('/book', (req, res)=>{
+router.post('/book', async (req, res)=>{
+
   console.log(req.body)
+  var body = req.body
+  var sql = `INSERT INTO bookings VALUES ( '${body.fname}', '${body.lname}', '${body.email}', '${body.phone}', '${body.date}', NOW())`
+
+  await connection.query(sql,(err)=>{
+    if (!err){
+      res.send("Booked!")
+    }
+    else{
+      console.log(err);
+    }
+  } )
   res.redirect('/')
+  
 })
 
 router.get('/bookings', (req, res)=>{
